@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Отключаем определение темы в зависимости от настроек системы */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
