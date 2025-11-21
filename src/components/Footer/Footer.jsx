@@ -11,7 +11,11 @@ export default function Footer() {
               &copy; 2025 - WhoHats
             </span>
           </div>
-          <div>
+          
+          <div className="flex gap-3">
+            <a href="https://griztonni.com/" target="_blank" className="text-black dark:text-white text-sm">
+              Разработчик
+            </a>
             <Link to="/rules" className="text-black dark:text-white text-sm">
               Правила общения
             </Link>
